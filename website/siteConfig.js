@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   title: 'Workspace ONE UEM Docs', // Title for your website.
   tagline: 'Docusaurus proof of concept for Workspace ONE UEM docs',
-  url: 'https://numberlock.github.io', // Your website URL
+  url: 'https://numberlock11.github.io', // Your website URL
   baseUrl: '/WSONE-Docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -31,7 +31,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'WSONE-Docs',
-  organizationName: 'Numberlock',
+  organizationName: 'numberlock11',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'

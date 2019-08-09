@@ -1,0 +1,16 @@
+{
+  "docs": {
+    "Overview": ["doc1"],
+    "What's New": ["doc2", "doc2_1"],
+    "Getting Started": ["doc3", "doc3_1", "doc3_2", "doc3_3", "doc3_4", "doc3_5"],
+    "How-To Guides": ["doc4"],
+    "Platform Reference": [
+      {
+        "type": "subcategory",
+        "label": "Apple",
+        "ids" :["doc5dot1","doc5dot2"]
+      },
+      "doc5_1", "doc5_2", "doc5_3", "doc5_4", "doc5_5", "doc5_6", "doc5_7"],
+    "Productivity Apps": ["doc6", "doc6_1", "doc6_2", "doc6_3", "doc6_4", "doc6_5", "doc6_6"]
+  }
+}

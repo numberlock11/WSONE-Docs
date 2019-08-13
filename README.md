@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/numberlock11/WSONE-Docs.svg?style=svg)](https://circleci.com/gh/numberlock11/WSONE-Docs)
 
 # What's In This Document
 

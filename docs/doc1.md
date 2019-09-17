@@ -1,6 +1,6 @@
 ---
 id: doc1
-title: What is Workspace TWO.ONE
+title: What is Workspace TWO.ONE.THREE
 custom_edit_url: https://github.com/numberlock11/WSONE-Docs/blob/master/docs/doc1.md
 ---
 Learn how to set up and configure the components of VMware Workspace ONE® UEM powered by AirWatch. Together, these components manage mobile endpoints, desktop operating systems, and corporate resources like apps and email.

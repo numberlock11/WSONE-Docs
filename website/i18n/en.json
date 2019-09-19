@@ -6,7 +6,7 @@
     "tagline": "Docusaurus proof of concept for Workspace ONE UEM docs",
     "docs": {
       "doc1": {
-        "title": "What is Workspace TWO"
+        "title": "What is Workspace TWO.ONE.THREE"
       },
       "doc2_1": {
         "title": "Features in development"
@@ -35,17 +35,8 @@
       "doc4": {
         "title": "Other Document"
       },
-      "doc5_1": {
-        "title": "Google"
-      },
-      "doc5_2": {
-        "title": "Microsoft"
-      },
-      "doc5_3": {
-        "title": "Avery"
-      },
       "doc5_4": {
-        "title": "Infinite Peripherals"
+        "title": "Datamax"
       },
       "doc5_5": {
         "title": "Epson"
@@ -82,10 +73,20 @@
       },
       "doc6": {
         "title": "Boxer"
+      },
+      "Google/doc5_1": {
+        "title": "Google"
+      },
+      "Google/doc5_2": {
+        "title": "Microsoft"
+      },
+      "Google/doc5_3": {
+        "title": "Avery"
       }
     },
     "links": {
-      "Docs": "Docs"
+      "Docs": "Docs",
+      "Google": "Google"
     },
     "categories": {
       "Overview": "Overview",
@@ -93,7 +94,10 @@
       "Getting Started": "Getting Started",
       "How-To Guides": "How-To Guides",
       "Platform Reference": "Platform Reference",
-      "Productivity Apps": "Productivity Apps"
+      "Productivity Apps": "Productivity Apps",
+      "Google Platform": "Google Platform",
+      "Android Enteprise": "Android Enteprise",
+      "Chrome OS": "Chrome OS"
     }
   },
   "pages-strings": {

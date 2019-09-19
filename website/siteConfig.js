@@ -39,6 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
+    {doc: 'Google/doc5_1', label: 'Google'},
   ],
 
   // If you have users set above, you add it here:

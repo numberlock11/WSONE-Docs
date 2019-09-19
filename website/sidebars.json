@@ -10,7 +10,21 @@
         "label": "Apple",
         "ids" :["doc5dot1","doc5dot2"]
       },
-      "doc5_1", "doc5_2", "doc5_3", "doc5_4", "doc5_5", "doc5_6", "doc5_7"],
+      {
+        "type": "link",
+        "label": "Google",
+        "href" :"http://numberlock11.github.io/WSONE-Docs/docs/Google/doc5_1"
+      },
+      "doc5_5", "doc5_6"],
     "Productivity Apps": ["doc6", "doc6_1", "doc6_2", "doc6_3", "doc6_4", "doc6_5", "doc6_6"]
+  },
+  "Google": {
+    "Google Platform" : ["Google/doc5_1"],
+    "Android Enteprise" : [{
+        "type": "subcategory",
+        "label": "Something",
+        "ids" :["Google/doc5_2"]
+      }],
+      "Chrome OS" : ["Google/doc5_3"]
   }
 }

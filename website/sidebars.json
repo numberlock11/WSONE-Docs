@@ -20,9 +20,7 @@
   },
   "Google": {
     "Google Platform" : ["Google/doc5_1"],
-    "Android Enterprise" : [{
-        "ids" :["Google/doc5_2"]
-      }],
+    "Android Enterprise":["Google/doc5_2"],
       "Chrome OS" : ["Google/doc5_3"]
   }
 }

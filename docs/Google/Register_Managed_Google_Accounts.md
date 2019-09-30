@@ -22,7 +22,7 @@ In order to manage Android devices, Workspace ONE must be registered as your UEM
 
 4. You will be redirected back to the Workspace ONE UEM Settings page and registration is completed. You can confirm that registration is successful by using the 'Test Connection' button.
 
-### Removing the registration
+### Removing the Registration
 
 > Before proceeding, be aware that removing the registration is not recommended for active deployments and can lead to loss of management functionality on enrolled devices.
 

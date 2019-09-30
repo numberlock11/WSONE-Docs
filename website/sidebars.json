@@ -25,7 +25,7 @@
       {
         "type": "subcategory",
         "label": "Register Workspace ONE for Android Management",
-        "ids": ["Google/Register_Managed_Google_Accounts"]
+        "ids": ["Google/Register_Managed_Google_Accounts", "Google/Register_Domain_Based"]
       }
     ],
     "Chrome OS" : ["Google/doc5_3"]

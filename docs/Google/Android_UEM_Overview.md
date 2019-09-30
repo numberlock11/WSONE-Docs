@@ -43,7 +43,6 @@ Google Domain-Based registration is ideal if an existing domain is already manag
 * The user's GSuite account is automatically added to the device as part of enrollment and therefore, the user is logged into Google apps such as Docs, Sheets, Gmail and Slides by enrolling.
 * The Google Admin Console offers a policy called 'Enforce EMM Policies'. Using this policy will prevent users from logging into an unmanaged Android device using their GSuite account.
 
-Test From Adarsh
 
 ## Choosing an enrollment method.
 

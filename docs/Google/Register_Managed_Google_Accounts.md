@@ -1,6 +1,6 @@
 ---
-id: doc5_2
-title: Android UEM Overview
+id: Register_Managed_Google_Accounts
+title: Managed Google Accounts
 ---
 
 VMware Workspace ONE UEM integrates with Google's Android Enterprise framework to provide a broad set of management features to meet your use cases. This section is meant to provide an overview of how Workspace ONE UEM interacts with Google APIs and frameworks to provide an understanding of how Android UEM management works. The section also includes considerations for choosing the right management model and network setup.
@@ -41,7 +41,7 @@ Managed Google Accounts is preferred for most use cases, particularly when Googl
 Google Domain-Based registration is ideal if an existing domain is already managed with Google (for example, through GSuite). Workspace ONE UEM can be added as the EMM provider for Google Accounts in the domain. In this scenario, Workspace ONE UEM will not generate a Google account for the enrollment user during enrollment. Instead, the user's Google identity (the user's GSuite account) will be used for management. The Google domain-based registration setup is more complex; involves generating an EMM token within the Google Admin Console and creating a service account for management. Since the binding between an EMM and the Google domain is one to one, it is not possible to setup multiple registrations for UAT and production. Separate domains must be used for multiple registrations. Additionally, because Workspace ONE UEM does not generate a unique Google account for the user on each device for bulk enrollment, enrolling more than 10 devices per user is not possible. The primary advantages of using a Google Domain-Based Registration setup are:
 
 * The user's GSuite account is automatically added to the device as part of enrollment and therefore, the user is logged into Google apps such as Docs, Sheets, Gmail and Slides by enrolling.
-* The Google Admin Console offers a policy called 'Enforce EMM Policies'. Using this policy will prevent users from logging into an unmanaged Android device using their Gsuite account.
+* The Google Admin Console offers a policy called 'Enforce EMM Policies'. Using this policy will prevent users from logging into an unmanaged Android device using their GSuite account.
 
 ## Choosing an enrollment method.
 

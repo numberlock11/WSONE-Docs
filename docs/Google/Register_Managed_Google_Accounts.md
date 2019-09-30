@@ -22,7 +22,7 @@ In order to manage Android devices, Workspace ONE must be registered as your UEM
 2. Click 'Register with Google'
 3. You will be redirected to a Google page to register your organization. Sign in with the @gmail.com account created for management, and enter your organization name. You should already see Workspace ONE listed as your EMM provider. Google will ask you to optionally fill details about your privacy officers. Agree to the Google agreement and click 'Confirm'.
 
-> Ensure that the correct Google account is used for registration. If you already logged into the Chrome browser using your personal Google account, the Google sign in page will use that account upon redirect.
+> Ensure that the correct Google account is used for registration. If you already logged into the Chrome browser using your personal Google account, the Google sign in page will use that account upon redirect. Consider using a private browsing window to ensure you are using the correct Google account.
 
 4. You will be redirected back to the Workspace ONE UEM Settings page and registration is completed. You can confirm that registration is successful by using the 'Test Connection' button.
 

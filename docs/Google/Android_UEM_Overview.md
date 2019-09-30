@@ -18,7 +18,7 @@ Android Enterprise is a standard feature set built into the Android operating sy
 ## How does Android Enterprise work?
 In order to configure management policies for your Android devices, you need to register Workspace ONE UEM as the EMM provider for your organization with Google. This registration allows Workspace ONE UEM to enroll your Android devices into the management mode of your choice. During device enrollment using the Workspace ONE Intelligent Hub, two key events occur:
 
-1) Workspace ONE UEM adds a Google account for management purposes on the device. This Google account is primarily used for app management through Google Play and controls the apps that the user can access for work.
+1) Workspace ONE UEM adds a Google account to the device for management purposes. This Google account is primarily used for app management through Google Play and controls the apps that the user can access for work.
 
 2) Workspace ONE Intelligent Hub is given elevated permissions to successfully manage devices. For employee owned devices, the Intelligent Hub is provided Profile Owner(PO) permission and for locked down corporate owned devices, the Intelligent Hub is provided the Device Owner(DO) permission. Profile owners have significantly lesser control over the device than device owners, thereby ensuring that more restrictive and invasive policies cannot be applied to employee-owned devices.
 

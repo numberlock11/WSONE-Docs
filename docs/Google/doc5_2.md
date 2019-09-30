@@ -50,4 +50,4 @@ Ideal for bring your own device (BYOD) use cases. The work profile provides the 
 
 Learn more about the Work Profile on our Android Video Series:
 Learn more about the Work Profile on our Android Video Series:
-![Work Profile](http://img.youtube.com/vi/NmiJz8ZtRCI/0.jpg)](https://www.youtube.com/watch?v=NmiJz8ZtRCI "VMware Series Episode 2: Work Profile")
+[![Work Profile](http://img.youtube.com/vi/NmiJz8ZtRCI/0.jpg)](https://www.youtube.com/watch?v=NmiJz8ZtRCI "VMware Series Episode 2: Work Profile")

@@ -1,6 +1,6 @@
 ---
 id: Android_MAM_Overview
-title: Android App Management Overview
+title: Overview
 ---
 
 This section provides an overview of key concepts for app management with Android Enterprise. This section also includes considerations for hosting your internal applications based on your use case.
@@ -17,8 +17,8 @@ You have two options to easily approve and manage your work apps in managed Goog
 
 > Approving an app does not automatically make the app available to a user. App approvals enable adding the app to the Workspace ONE UEM console, after which the app can be assigned to a user.
 
-### Deploying internally developed apps (private apps)
-With Android Enterprise, internally developed apps can either be hosted on Google Play, or within the Workspace ONE UEM console. Deploying your private apps on Google Play has many benefits:
+## Deploying internally developed apps
+With Android Enterprise, internally developed apps can either be hosted on managed Google Play, or within the Workspace ONE UEM console. Hosting the app in managed Google Play provides several benefits and is the preferred option for delivering apps. These benefits are listed below:
 
 * Your app is limited to your organization (or a list of organizations of your choosing). Although the app is uploaded to Play, it'll only be available to users within your organization.
 * Your apps are scanned by Google to ensure it meets best practices for Android app development.
@@ -26,10 +26,5 @@ With Android Enterprise, internally developed apps can either be hosted on Googl
 * Alpha and beta testing can be achieved through Google Play.
 * End users can download the app directly from managed Google Play on their enrolled device.
 
-Hosting internally developed apps within the Workspace ONE UEM console is not available with all forms of enrollment. Review the table below to understand when an app can be hosted on Google Play and when it can be hosted in Workspace ONE UEM.
-
-| Enrollment                         |      Host in Google Play      |     Host in Workspace ONE UEM |
-|------------------------------------|:-----------------------------:|------------------------------:|
-| Work Profile                       |           Supported           |                 Not Supported |
-| Work Managed                       |           Supported           |                     Supported |
-| Corporate Owned Personally Enabled | Supported (Work Profile only) | Supported (Work Managed only) |
+Learn more about Android App Management in our Android Video Series:
+[![Android App Management](http://img.youtube.com/vi/DdSE-qFmRt8&t/0.jpg)](https://www.youtube.com/watch?v=DdSE-qFmRt8&t "VMware Series Episode 5: App Management")

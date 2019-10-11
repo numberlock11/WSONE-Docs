@@ -27,4 +27,4 @@ With Android Enterprise, internally developed apps can either be hosted on manag
 * End users can download the app directly from managed Google Play on their enrolled device.
 
 Learn more about Android App Management in our Android Video Series:
-[![Android App Management](http://img.youtube.com/vi/DdSE-qFmRt8&t/0.jpg)](https://www.youtube.com/watch?v=DdSE-qFmRt8&t "VMware Series Episode 5: App Management")
+[![Android App Management](https://img.youtube.com/vi/DdSE-qFmRt8/0.jpg)](https://www.youtube.com/watch?v=DdSE-qFmRt8&t "VMware Series Episode 5: App Management")

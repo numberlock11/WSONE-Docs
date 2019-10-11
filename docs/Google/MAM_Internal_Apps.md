@@ -6,7 +6,7 @@ title: Deploying Internal Apps
 With Android Enterprise, internally developed apps can either be hosted on managed Google Play, or within the Workspace ONE UEM console. Deploying your private apps on Google Play has many benefits:
 
 * Your app is limited to your organization (or a list of organizations of your choosing). Although the app is uploaded to Play, it'll only be available to users within your organization.
-* Your apps are scanned by Google to ensure it meets best practices for Android app development.
+* Your apps are scanned by Google to ensure they meet best practices for Android app development.
 * You can leverage Google's global Play Store infrastructure for app delivery and app updates.
 * Alpha and beta testing can be achieved through Google Play.
 * End users can download the app directly from managed Google Play on their enrolled device.
@@ -27,15 +27,15 @@ Publishing through the iframe in the Workspace ONE UEM console is the fastest an
 
 Uploading apps directly to managed Google Play using the Google Play Developer console is a longer process. The Google Play developer console requires a complete store listing (including screenshots and description) and a content questionnaire to publish the app. Additionally, it could take up to 24 hours after publishing the app before it can be viewed on Google Play. If the app needs to be made public in the future, using Google Play developer console to upload the app is the best option.
 
->* Private applications can never be uploaded more than once as the Google Play ensures that each of the application has a unique package name.
->* Deleted Private applications cannot be re-uploaded with the same package name. Delete the private applications only if you never want to use the same package name again. The package name is a unique name to identify a specific app.
+>* Private applications can never be uploaded more than once as Google Play ensures that each application has a unique package name.
+>* Deleted Private applications cannot be re-uploaded with the same package name. Delete private applications only if you never want to use the same package name again. The package name is a unique name to identify a specific app.
 
 ### Uploading internal apps using the iframe
 
 1. Navigate to Apps & Books > Public > Add Application.
 2. Select Android from the Platform drop-down menu.
-3. Select Search App Store to search for the application in the app store. Leave the Name blank and select Next. Google Play opens directly from the Workspace ONE UEM console.
-4. Access the Private Apps from the left menu.
+3. Select Search App Store to search for the application in Google Play. Leave the Name blank and select Next. Google Play opens directly from the Workspace ONE UEM console.
+4. Access Private Apps from the left menu.
 5. Enter the Title and upload the APK file.
 6. The app can take up to 10 minutes to publish on managed Google Play. Once the app is available, you can select it and add it to the Workspace ONE UEM console for assignment and distribution.
 

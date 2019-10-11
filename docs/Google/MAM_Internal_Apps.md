@@ -19,7 +19,7 @@ Hosting internally developed apps within the Workspace ONE UEM console is not av
 |            Work Managed            |           Supported           |           Supported           |
 | Corporate Owned Personally Enabled | Supported (Work Profile only) | Supported (Work Managed only) |
 
-## Deploying internal apps through managed Google Play
+## Deploying internal apps by hosting in managed Google Play
 
 There are two ways of deploying internal apps to managed Google Play. Apps can be uploaded to managed Google Play through an iframe that is loaded in the Workspace ONE UEM console, or the app can be directly published to managed Google Play through the Play Developer console.
 
@@ -41,4 +41,4 @@ Uploading apps directly to managed Google Play using the Google Play Developer c
 
 ### Uploading internal apps using the Google Play Developer console
 
-Google's documentation to upload apps in the Google Play developer documentation is available [here](https://support.google.com/googleplay/android-developer/answer/113469?hl=en&ref_topic=7072031). When [setting up pricing and distribution](https://support.google.com/googleplay/android-developer/answer/6334373), an option to publish to specific organizations is available in the managed Google Play section. 
+Google's documentation to upload apps in the Google Play developer documentation is available [here](https://support.google.com/googleplay/android-developer/answer/113469?hl=en&ref_topic=7072031). When [setting up pricing and distribution](https://support.google.com/googleplay/android-developer/answer/6334373), an option to publish to specific organizations is available in the managed Google Play section.

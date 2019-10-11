@@ -7,17 +7,16 @@ title: Managed Google Accounts
 
 In order to manage Android devices, Workspace ONE must be registered as your UEM provider with Google. When using Managed Google Accounts, this is a simple process that can be completed in a few minutes.
 
-### Best Practices
+## Best Practices
 
 * You'll need a @gmail.com account to complete registration using the Managed Google Accounts method. We recommend creating a separate @gmail.com account that will be used strictly for registration and will not be associated with any user. The Google account cannot be associated with a GSuite domain.
 * Complete the registration at your highest organization group (should be of type 'Customer'). Registering at the highest organization group will allow you to use the same registration across all your use cases instead of maintaining multiple UEM registrations with Google.
 
-### Registering Workspace ONE UEM for Android Management
+## Registering Workspace ONE UEM for Android Management
 
 1. Navigate to Groups & Settings > All Settings > Devices & Users > Android > Android EMM Registration.
 
-![Android EMM Registration](Screenshots/AndroidEMMRegistration.png)
-
+![](Screenshots/AndroidEMMRegistration.png)
 
 2. Click 'Register with Google'
 3. You will be redirected to a Google page to register your organization. Sign in with the @gmail.com account created for management, and enter your organization name. You should already see Workspace ONE listed as your EMM provider. Google will ask you to optionally fill details about your privacy officers. Agree to the Google agreement and click 'Confirm'.
@@ -26,7 +25,7 @@ In order to manage Android devices, Workspace ONE must be registered as your UEM
 
 4. You will be redirected back to the Workspace ONE UEM Settings page and registration is completed. You can confirm that registration is successful by using the 'Test Connection' button.
 
-### Removing the Registration
+## Removing the Registration
 
 > Before proceeding, be aware that removing the registration is not recommended for active deployments and can lead to loss of management functionality on enrolled devices.
 

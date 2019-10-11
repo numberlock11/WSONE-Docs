@@ -19,7 +19,6 @@
     "Productivity Apps": ["doc6", "doc6_1", "doc6_2", "doc6_3", "doc6_4", "doc6_5", "doc6_6"]
   },
   "Google": {
-    "Google Platform" : ["Google/doc5_1"],
     "Android Enterprise":[
       "Google/Android_UEM_Overview",
       {

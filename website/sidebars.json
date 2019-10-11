@@ -30,7 +30,7 @@
       {
         "type": "subcategory",
         "label": "Android App Management",
-        "ids": ["Google/Android_MAM_Overview"]
+        "ids": ["Google/Android_MAM_Overview", "MAM_Internal_Apps"]
       }
     ],
     "Chrome OS" : ["Google/doc5_3"]

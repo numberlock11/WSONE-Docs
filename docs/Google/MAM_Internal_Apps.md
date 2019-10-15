@@ -1,6 +1,7 @@
 ---
 id: MAM_Internal_Apps
 title: Deploying Internal Apps
+custom_edit_url: https://github.com/numberlock11/WSONE-Docs/blob/master/docs/Google/MAM_Internal_Apps.md
 ---
 
 With Android Enterprise, internally developed apps can either be hosted on managed Google Play, or within the Workspace ONE UEM console. Deploying your private apps on Google Play has many benefits:

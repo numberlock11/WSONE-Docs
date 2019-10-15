@@ -20,6 +20,7 @@
   },
   "Google": {
     "Android Enterprise":[
+      "Google Platform" : ["Google/doc5_1"],
       "Google/Android_UEM_Overview",
       {
         "type": "subcategory",

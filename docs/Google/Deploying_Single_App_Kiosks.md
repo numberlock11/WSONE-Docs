@@ -16,8 +16,8 @@ The best option to meet the kiosk use case is to use Work Managed enrollment wit
 * Devices used for kiosks and digital signs typically don't have an end user associated with them.
 * Enrollments will be performed in bulk. The enrollment will occur at a central location and then shipped to the location where the device will be used as a kiosk.
 
-# Configure device-based accounts 
->> Device based accounts is only available when Android EMM is registered using Managed Google Accounts.
+# Configure device-based accounts
+> Device based accounts is only available when Android EMM is registered using Managed Google Accounts.
 
 Device based accounts add a unique managed Google account on each device, even if the enrollment user is the same. This is important because Google limits how many devices can be used by a single user (limited to 10). With device based accounts, any number of devices can be enrolled with the same user.
 
@@ -31,7 +31,7 @@ Device based accounts add a unique managed Google account on each device, even i
 5. Drag and drop the app you want to lock to the foreground.
 6. Under Layout, select portrait or landscape based on how you'd like the app to be displayed.
 7. Under Settings, configure settings and utilities that you'd like the user of the device to gain access to.
->> We recommend that an Administrative passcode is configured under Settings. This ensures that admin users can back out of single app mode for simplified troubleshooting (either in person or through Workspace ONE Assist)
+> We recommend that an Administrative passcode is configured under Settings. This ensures that admin users can back out of single app mode for simplified troubleshooting (either in person or through Workspace ONE Assist)
 
 8. Click Save to add the profile to AirWatch or Save & Publish to add the profile and immediately deploy it to applicable Android devices.
 

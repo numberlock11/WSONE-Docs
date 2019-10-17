@@ -55,7 +55,6 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/numberlock11/WSONE-Docs/blob/master/docs/Google/Deploying_Single_App_Kiosks.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Deploying Single App Kiosks and Digital Signs</h1></header><article><div><span><p>Android devices can be locked down to present a single app for kiosk and digital signage use cases. Users can only have access to the app in the foreground, and cannot navigate back to the Android home screen or alter device settings. Single app kiosks and signs can be easily achieved by using VMware Launcher.</p>
-<h1><a class="anchor" aria-hidden="true" id="configuring-vmware-launcher-for-kiosks-and-digital-signage"></a><a href="#configuring-vmware-launcher-for-kiosks-and-digital-signage" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuring VMware Launcher for kiosks and digital signage</h1>
 <h2><a class="anchor" aria-hidden="true" id="how-does-vmware-launcher-enable-single-app-kiosks"></a><a href="#how-does-vmware-launcher-enable-single-app-kiosks" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How does VMware Launcher enable single app kiosks?</h2>
 <p>VMware Intelligent Hub uses Android's lock task feature to lock Launcher in the foreground. The lock task features built into Android are also used to allow customization of which settings are available to the user during single app mode. For instance, access to settings such as Wi-FI can be prevented and notification bar access can be customized.</p>
 <h2><a class="anchor" aria-hidden="true" id="best-practices-for-enrollment"></a><a href="#best-practices-for-enrollment" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Best practices for Enrollment</h2>
@@ -69,6 +68,58 @@
 <p>Device based accounts is only available when Android EMM is registered using Managed Google Accounts.</p>
 </blockquote>
 <p>Device based accounts add a unique managed Google account on each device, even if the enrollment user is the same. This is important because Google limits how many devices can be used by a single user (limited to 10). With device based accounts, any number of devices can be enrolled with the same user.</p>
+<p>To configure device-based accounts in the Workspace ONE UEM console:</p>
+<ol>
+<li>Navigate to Groups &amp; Settings &gt; All Settings &gt; Devices &amp; Users &gt; Android &gt; Android EMM Registration &gt; Enrollment Settings.</li>
+<li>Set the Work Managed Enrollment Type to Device-Based.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="selecting-the-right-method-for-work-managed-enrollments"></a><a href="#selecting-the-right-method-for-work-managed-enrollments" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Selecting the right method for work managed enrollments</h3>
+<p>To ensure that the enrollment is easy to perform in bulk, the best option is to use a QR code. A QR code can be created within the Workspace ONE UEM console that includes server details, group ID and authentication details. By simply scanning the QR code during the out of box setup, the device will enroll without any further interaction.</p>
+<p>To create a QR code in the Workspace ONE UEM console:</p>
+<ol>
+<li>Navigate to Lifecycle &gt; Staging &gt; List view.</li>
+<li>Click 'Configure Enrollment'.</li>
+<li>Select 'Android' and 'QR Code', then click 'Configure'.</li>
+<li>You can connect the device to Wi-Fi prior to enrollment by enabling the Wi-Fi toggle. This enabling action displays the following options.</li>
+</ol>
+<table>
+<thead>
+<tr><th style="text-align:center">Setting</th><th style="text-align:center">Description</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">SSID</td><td style="text-align:center">Enter the Service Set Identifier, more commonly known as the name of the Wi-Fi Network.</td></tr>
+<tr><td style="text-align:center">Password</td><td style="text-align:center">Enter the Wi-Fi password for the entered SSID.</td></tr>
+</tbody>
+</table>
+<ol start="5">
+<li><p>Select Next.</p></li>
+<li><p>Select the Workspace ONE Intelligent Hub to push to devices during staging. The default selection is Use latest Workspace ONE Intelligent Hub. If you do not have an Workspace ONE Intelligent Hub added, select Hosted on an external URL and enter the address in the URL text box to point to an externally-hosted Workspace ONE Intelligent Hub Package.</p></li>
+<li><p>Select Next.</p></li>
+<li><p>Set the Enrollment Details settings. To use token-based authentication, leave both options disabled.</p></li>
+</ol>
+<p>Configure Organization Group</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Setting</th><th style="text-align:center">Description</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Organization Group</td><td style="text-align:center">Enable and select the organization group to enroll the device into.</td></tr>
+</tbody>
+</table>
+<p>Configure Login Credentials</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Setting</th><th style="text-align:center">Description</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Username</td><td style="text-align:center">Enable to configure login credentials. Enter the Workspace ONE UEM account user name.</td></tr>
+<tr><td style="text-align:center">Password</td><td style="text-align:center">Enter the corresponding password.</td></tr>
+</tbody>
+</table>
+<ol start="9">
+<li>Select Next.</li>
+<li>The Summary page allows you to Download File of the PDF. You can also View PDF to see a preview of your QR Code Format selections.</li>
+</ol>
 <h2><a class="anchor" aria-hidden="true" id="creating-the-vmware-launcher-profile"></a><a href="#creating-the-vmware-launcher-profile" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating the VMware Launcher Profile</h2>
 <ol>
 <li>Navigate to Devices &gt; Profiles &amp; Resources &gt; Profiles &gt; Add &gt; Add Profile &gt; Android .</li>
@@ -85,5 +136,4 @@
 <ol start="8">
 <li>Click Save to add the profile to AirWatch or Save &amp; Publish to add the profile and immediately deploy it to applicable Android devices.</li>
 </ol>
-<h2><a class="anchor" aria-hidden="true" id="best-practices-for-enrolling-android-devices-for-kiosks"></a><a href="#best-practices-for-enrolling-android-devices-for-kiosks" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Best practices for enrolling Android devices for Kiosks</h2>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/WSONE-Docs/docs/Google/MAM_Internal_Apps"><span class="arrow-prev">← </span><span>Deploying Internal Apps</span></a><a class="docs-next button" href="/WSONE-Docs/docs/Google/doc5_3"><span>Chrome OS</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#how-does-vmware-launcher-enable-single-app-kiosks">How does VMware Launcher enable single app kiosks?</a></li><li><a href="#best-practices-for-enrollment">Best practices for Enrollment</a><ul class="toc-headings"><li><a href="#configure-device-based-accounts">Configure device-based accounts</a></li></ul></li><li><a href="#creating-the-vmware-launcher-profile">Creating the VMware Launcher Profile</a></li><li><a href="#best-practices-for-enrolling-android-devices-for-kiosks">Best practices for enrolling Android devices for Kiosks</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/WSONE-Docs/" class="nav-home"><img src="/WSONE-Docs/img/favicon.ico" alt="Workspace ONE UEM Docs" width="66" height="58"/></a><div><h5>Docs</h5><a href="/WSONE-Docs/docs/en/doc1.html">Getting Started (or other categories)</a></div><div><h5>More</h5><a href="/WSONE-Docs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 numberlock</section></footer></div></body></html>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/WSONE-Docs/docs/Google/MAM_Internal_Apps"><span class="arrow-prev">← </span><span>Deploying Internal Apps</span></a><a class="docs-next button" href="/WSONE-Docs/docs/Google/doc5_3"><span>Chrome OS</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#how-does-vmware-launcher-enable-single-app-kiosks">How does VMware Launcher enable single app kiosks?</a></li><li><a href="#best-practices-for-enrollment">Best practices for Enrollment</a><ul class="toc-headings"><li><a href="#configure-device-based-accounts">Configure device-based accounts</a></li><li><a href="#selecting-the-right-method-for-work-managed-enrollments">Selecting the right method for work managed enrollments</a></li></ul></li><li><a href="#creating-the-vmware-launcher-profile">Creating the VMware Launcher Profile</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/WSONE-Docs/" class="nav-home"><img src="/WSONE-Docs/img/favicon.ico" alt="Workspace ONE UEM Docs" width="66" height="58"/></a><div><h5>Docs</h5><a href="/WSONE-Docs/docs/en/doc1.html">Getting Started (or other categories)</a></div><div><h5>More</h5><a href="/WSONE-Docs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 numberlock</section></footer></div></body></html>

@@ -1,11 +1,12 @@
 ---
 id: Deploying_Single_App_Kiosks
 title: Deploying Single App Kiosks and Digital Signs
+custom_edit_url: https://github.com/numberlock11/WSONE-Docs/blob/master/docs/Google/Deploying_Single_App_Kiosks.md
 ---
 
 Android devices can be locked down to present a single app for kiosk and digital signage use cases. Users can only have access to the app in the foreground, and cannot navigate back to the Android home screen or alter device settings. Single app kiosks and signs can be easily achieved by using VMware Launcher.
 
-### Configuring VMware Launcher for kiosks and digital signage
+# Configuring VMware Launcher for kiosks and digital signage
 
 ## How does VMware Launcher enable single app kiosks?
 VMware Intelligent Hub uses Android's lock task feature to lock Launcher in the foreground. The lock task features built into Android are also used to allow customization of which settings are available to the user during single app mode. For instance, access to settings such as Wi-FI can be prevented and notification bar access can be customized.
@@ -16,7 +17,7 @@ The best option to meet the kiosk use case is to use Work Managed enrollment wit
 * Devices used for kiosks and digital signs typically don't have an end user associated with them.
 * Enrollments will be performed in bulk. The enrollment will occur at a central location and then shipped to the location where the device will be used as a kiosk.
 
-# Configure device-based accounts
+### Configure device-based accounts
 > Device based accounts is only available when Android EMM is registered using Managed Google Accounts.
 
 Device based accounts add a unique managed Google account on each device, even if the enrollment user is the same. This is important because Google limits how many devices can be used by a single user (limited to 10). With device based accounts, any number of devices can be enrolled with the same user.

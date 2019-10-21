@@ -1,7 +1,7 @@
 ---
 id: Enroll_Manage_BYOD_Devices
 title: Enroll and Manage a BYOD Device
-custom_edit_url: https://github.com/numberlock11/WSONE-Docs/blob/master/docs/Google/Enroll_Manage_BYOD_Device.md
+custom_edit_url: https://github.com/numberlock11/WSONE-Docs/blob/master/docs/Google/Enroll_Manage_BYOD_Devices.md
 ---
 
 Android devices that have to be managed can either be an employee owned device or a corporate distributed devices. In Android Management, based on the

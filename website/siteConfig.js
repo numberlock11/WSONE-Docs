@@ -40,6 +40,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {doc: 'Google/doc5_1', label: 'Google'},
+    {doc: 'Apple/doc5dot1', label: 'Apple'},
   ],
 
   // If you have users set above, you add it here:

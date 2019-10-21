@@ -5,14 +5,14 @@
     "previous": "Previous",
     "tagline": "Docusaurus proof of concept for Workspace ONE UEM docs",
     "docs": {
+      "Apple/doc5dot1": {
+        "title": "iOS"
+      },
+      "Apple/doc5dot2": {
+        "title": "macOS"
+      },
       "doc1": {
-        "title": "What is Workspace TWO.ONE.THREE"
-      },
-      "doc2_1": {
-        "title": "Features in development"
-      },
-      "doc2": {
-        "title": "Latest Releases"
+        "title": "What is Workspace ONE UEM"
       },
       "doc3_1": {
         "title": "Add users for access"
@@ -47,12 +47,6 @@
       "doc5": {
         "title": "Fifth Document"
       },
-      "doc5dot1": {
-        "title": "iOS"
-      },
-      "doc5dot2": {
-        "title": "macOS"
-      },
       "doc6_1": {
         "title": "Web"
       },
@@ -74,30 +68,58 @@
       "doc6": {
         "title": "Boxer"
       },
-      "Google/doc5_1": {
-        "title": "Google"
+      "Google/Android_MAM_Overview": {
+        "title": "Overview"
       },
-      "Google/doc5_2": {
-        "title": "Microsoft"
+      "Google/Android_UEM_Overview": {
+        "title": "Android UEM Overview"
+      },
+      "Google/Deploying_Single_App_Kiosks": {
+        "title": "Deploying Single App Kiosks and Digital Signs"
+      },
+      "Google/doc5_1": {
+        "title": "Overview"
       },
       "Google/doc5_3": {
-        "title": "Avery"
+        "title": "Chrome OS"
+      },
+      "Google/MAM_Internal_Apps": {
+        "title": "Deploying Internal Apps"
+      },
+      "Google/Register_Domain_Based_Accounts": {
+        "title": "Google Domain-Based Registration"
+      },
+      "Google/Register_Managed_Google_Accounts": {
+        "title": "Managed Google Accounts"
+      },
+      "whatisnew/doc2_1": {
+        "title": "Features in development"
+      },
+      "whatisnew/doc2": {
+        "title": "Latest Releases"
+      },
+      "whatisnew/known": {
+        "title": "Known Issues"
+      },
+      "whatisnew/resolved": {
+        "title": "Resolved Issues"
       }
     },
     "links": {
       "Docs": "Docs",
-      "Google": "Google"
+      "Google": "Google",
+      "Apple": "Apple"
     },
     "categories": {
       "Overview": "Overview",
       "What's New": "What's New",
       "Getting Started": "Getting Started",
       "How-To Guides": "How-To Guides",
-      "Platform Reference": "Platform Reference",
       "Productivity Apps": "Productivity Apps",
       "Google Platform": "Google Platform",
-      "Android Enteprise": "Android Enteprise",
-      "Chrome OS": "Chrome OS"
+      "Android Enterprise": "Android Enterprise",
+      "Chrome OS": "Chrome OS",
+      "Apple Platform": "Apple Platform"
     }
   },
   "pages-strings": {

@@ -18,4 +18,4 @@ Work Managed based Android device management is best suited for coporate owned d
 
 To Enroll a device in Android Enterprise Work Profile Mode:
 1. Go to Play Store on the device and download WS1 Intelligent Hub
-2. After download, open the Intelligent Hub app and go through the enrollment process.
+2. Launch the Intelligent Hub app and go through the enrollment process.

@@ -12,10 +12,16 @@ Work Profile based Android device management is best suited for employee owned d
 
 Work Managed based Android device management is best suited for coporate owned devices. The device is fully managed. 
 
+In the next section, work profile enrollment is described in detail
+
 ## Pre-requisites
 1. Set up Android Enterprise
-2. Select the enrollment mode (Default/Recommended: User Based) 
+2. Select the enrollment mode (Recommended: User Based) 
 
+## Enrollment
 To Enroll a device in Android Enterprise Work Profile Mode:
-1. Go to Play Store on the device and download WS1 Intelligent Hub
-2. Launch the Intelligent Hub app and go through the enrollment process.
+1. Go to Play Store on the device and download WS1 Intelligent Hub app
+2. Launch the Intelligent Hub app and go through the enrollment process
+
+After completion of enrollment work container is created and all the applications approved on the Workspace One UEM console 
+

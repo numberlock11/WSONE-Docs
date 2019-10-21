@@ -1,5 +1,5 @@
 ---
-id: Enroll_Manage_BYOD_Device
+id: Enroll_Manage_BYOD_Devices
 title: Enroll and Manage a BYOD Device
 custom_edit_url: https://github.com/numberlock11/WSONE-Docs/blob/master/docs/Google/Enroll_Manage_BYOD_Device.md
 ---

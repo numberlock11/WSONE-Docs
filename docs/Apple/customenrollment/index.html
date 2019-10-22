@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Custom Enrollment · Workspace ONE Docs</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="### Endpoints to remember"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Custom Enrollment · Workspace ONE Docs"/><meta property="og:type" content="website"/><meta property="og:url" content="https://numberlock11.github.io/WSONE-Docs/"/><meta property="og:description" content="### Endpoints to remember"/><meta property="og:image" content="https://numberlock11.github.io/WSONE-Docs/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://numberlock11.github.io/WSONE-Docs/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/WSONE-Docs/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/WSONE-Docs/js/scrollSpy.js"></script><link rel="stylesheet" href="/WSONE-Docs/css/main.css"/><script src="/WSONE-Docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/WSONE-Docs/"><img class="logo" src="/WSONE-Docs/img/favicon.ico" alt="Workspace ONE Docs"/><h2 class="headerTitleWithLogo">Workspace ONE Docs</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/WSONE-Docs/docs/doc1" target="_self">Home</a></li><li class="siteNavGroupActive"><a href="/WSONE-Docs/docs/Apple/doc5dot1" target="_self">Internal</a></li><li class=""><a target="_self"></a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Apple Platform Playbooks</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Apple Platform Playbooks<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/WSONE-Docs/docs/Apple/doc5dot1">Device Enrollment Program</a></li><li class="navListItem"><a class="navItem" href="/WSONE-Docs/docs/Apple/doc5dot2">User Enrollment</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/WSONE-Docs/docs/Apple/customenrollment">Custom Enrollment</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Custom Enrollment</h1></header><article><div><span><h3><a class="anchor" aria-hidden="true" id="endpoints-to-remember"></a><a href="#endpoints-to-remember" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Endpoints to remember</h3>
+<pre><code class="hljs">Device Management
+(<span class="hljs-string">URL:</span> <span class="hljs-string">https:</span><span class="hljs-comment">//&lt;hostname&gt;/DeviceManagement/DepEnrollment InitialValidation?depid=&lt;depprofilesessionid&gt;</span>
+</code></pre>
+<p>The device management endpoint is the endpoint that's specified in the web_configuration_profile URL when custom enrollment is enabled in the DEP profile. The UEM console will do this in the backend and the admin does not have to specify this URL, all the admin has to do is enable the custom enrollment option in the dep profile or the dep configuration setup wizard.</p>
+<p><img src="/WSONE-Docs/docs/assets/customenrollment.png" alt="DEP1.png"></p>
+<blockquote>
+<p>NOTE: The above screenshot shows an example for edit profile but the same is applicable for the add profile and DEP configuration setup wizard flows as well.</p>
+</blockquote>
+<p>When the device is initially powered on and reaches out to the Apple DEP server, this URL is returned to the device and upon clicking next in the DEP landing screen on the device, this URL is it and then UEM console will render the landing page. Refer to the demo video attached in the bottom of this page. The landing page might be the user auth, token auth or SAML auth based on the setting enabled under the enrollment settings in the console. When the URL is hit we use the dep profile session id in the URL to load the DEP profile and create an enrollment staging record with a dummy device identifier in the mobileManagement.DeviceEnrollmentStaging table. This session id is then provided in the DS URL discussed below.</p>
+<pre><code class="hljs">Device Services MDM Profile delivery
+(<span class="hljs-string">URL:</span> <span class="hljs-string">https:</span><span class="hljs-comment">//&lt;hostname&gt;/DeviceServices/AppleMdmProfileDelivery.aws?sid=&lt;sessionid&gt;</span>
+</code></pre>
+<p>This URL is called by device management once the authentication is complete and the TOU has been accepted(if any). The session id generated in device management is passed on the URL which is then used to load the staging information. We then create a dummy device record with the device identifier generated in Device Management, generate and deliver the MDM profile to the device. In the MDM profile, when specifying the checkin URL, we append the device uuid that was created upon the creation of the dummy device record. Once the MDM profile is delivered, the web view on the device is closed and the device checks in to the checkin endpoint discussed below.</p>
+<pre><code class="hljs">Device Services MDM Profile delivery
+(URL: https:<span class="hljs-regexp">//</span>&lt;hostname&gt;<span class="hljs-regexp">//</span>DeviceServices<span class="hljs-regexp">/AppleMDM/</span>CheckIn.aspx?deviceId=&lt;deviceuuid&gt;
+</code></pre>
+<p>When the device checks in to this endpoint, this is the first instance where we have all device related properties such as Serial number, UDID, model etc. Using the device uuid in the URL, we will update the device record with the device reported properties. All other checkin related processing remains the same.</p>
+<h2><a class="anchor" aria-hidden="true" id="important-notes-for-custom-enrollment"></a><a href="#important-notes-for-custom-enrollment" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Important notes for custom enrollment</h2>
+<ul>
+<li>When custom enrollment is enabled, authentication is always required and will be defaulted to on and disabled.</li>
+<li>Custom enrollment applies to the DEP profile and can be enabled/disabled at the dep profile level.</li>
+<li>Enrollment restrictions are not supported.</li>
+<li>Optional prompts are not supported.</li>
+<li>If the enrollment user has UG mapping, that will always take precedence.</li>
+<li>If there is no UG mapping, the default OG context that the device will start enrollment is in the OG specified in the DEP profile.</li>
+<li>Once the user/token auth info is entered, the OG will be moved based on where the user is.</li>
+<li>If the DEP profile is at a higher OG than where the user is, the OG context is the OG where the user is at.</li>
+<li>If the DEP profile(or the assigned location group) is at a lower OG than where the user is, the OG context is the OG where the DEP profile(or the assigned location group) is at.
+Ownership type is defaulted to corporate dedicated for custom enrollment.</li>
+<li>If a DEP device is enrolled using the legacy DEP enrollment method and is reset without unenrolling/deleting the device from console, when the enrollment process is started on the device again and if it goes through custom enrollment, a new device record is created and the old device record is deleted. This is because for the enrollment using the custom DEP web view, we do not get the UDID until the checkin.</li>
+<li>Supported authentication methods are basic/directory authentication, single and two factor token authentication and SAML.</li>
+<li>If you have specified a platform for an enrollment token, it's not supported and can use the token to enroll a device with any platform.</li>
+<li>If the end user kicks off the custom enrollment and closes the web view between the device record creation and the profile delivery and then initiates the custom enrollment again, you might see duplicate device records with the older one showing &quot;Enrollment in progress&quot;. This is because we do not have the UDID to tie these two records. We have added a purge job to clean up these records which cleans records over the last 30 days. There will also be multiple device enrollment staging records since we create a staging record everytime the web view is loaded.</li>
+<li>A new enrollment mode has been added. In the mobileManagement.DeviceEnrollmentStaging table, the mode for custom enrollment will be CustomDep.</li>
+<li>Remember custom enrollment is applicable only for iOS 13+ and macOS 10.15+ devices only.</li>
+<li>TOU will be picked from the final OG context decided post authentication.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="database-changes"></a><a href="#database-changes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Database changes</h2>
+<ul>
+<li>New column added to dbo.DeviceExtendedProperties. The column IsCustomDepEnrolled is used to identify a device that has enrolled using the custom enrollment. This is also the column that we depend on to purge the enrollment in progress records.</li>
+<li>New column added to deviceProfile.MDMEnrollmentProgram. The column EnableCustomWebView is used to identify if the admin has enabled custom enrollment for the dep profile.
+Demo videos</li>
+</ul>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 2019-10-22 by numberlock11</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/WSONE-Docs/docs/Apple/doc5dot2"><span class="arrow-prev">← </span><span>User Enrollment</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#important-notes-for-custom-enrollment">Important notes for custom enrollment</a></li><li><a href="#database-changes">Database changes</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/WSONE-Docs/" class="nav-home"><img src="/WSONE-Docs/img/favicon.ico" alt="Workspace ONE Docs" width="66" height="58"/></a><div><h5>Docs</h5><a href="/WSONE-Docs/docs/en/doc1.html">Getting Started (or other categories)</a></div><div><h5>More</h5><a href="/WSONE-Docs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 numberlock</section></footer></div></body></html>

@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Docusaurus proof of concept for Workspace ONE UEM docs",
+    "tagline": "Docusaurus proof of concept for Workspace ONE docs",
     "docs": {
       "Apple/doc5dot1": {
         "title": "iOS"
@@ -69,7 +69,7 @@
         "title": "Boxer"
       },
       "Google/Android_MAM_Overview": {
-        "title": "Overview"
+        "title": "Android App Management"
       },
       "Google/Android_UEM_Overview": {
         "title": "Android UEM Overview"
@@ -82,6 +82,9 @@
       },
       "Google/doc5_3": {
         "title": "Chrome OS"
+      },
+      "Google/Enroll_Manage_BYOD_Devices": {
+        "title": "Enroll and Manage a BYOD Device"
       },
       "Google/MAM_Internal_Apps": {
         "title": "Deploying Internal Apps"
@@ -108,13 +111,14 @@
     "links": {
       "Home": "Home",
       "Google": "Google",
-      "Apple": "Apple"
+      "Internal": "Internal"
     },
     "categories": {
       "Overview": "Overview",
       "What's New": "What's New",
       "Getting Started": "Getting Started",
       "How-To Guides": "How-To Guides",
+      "Device Platforms": "Device Platforms",
       "Productivity Apps": "Productivity Apps",
       "Google Platform": "Google Platform",
       "Android Enterprise": "Android Enterprise",

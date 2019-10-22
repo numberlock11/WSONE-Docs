@@ -1,6 +1,6 @@
 ---
 id: Android_MAM_Overview
-title: Overview
+title: Android App Management
 custom_edit_url: https://github.com/numberlock11/WSONE-Docs/blob/master/docs/Google/Android_MAM_Overview.md
 ---
 

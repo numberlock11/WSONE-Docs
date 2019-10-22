@@ -2,26 +2,31 @@
   "docs": {
     "Overview": ["doc1"],
     "What's New": ["whatisnew/doc2", "whatisnew/doc2_1","whatisnew/resolved","whatisnew/known"],
-    "Getting Started": ["doc3", "doc3_1", "doc3_2", "doc3_3", "doc3_4", "doc3_5"],
-    "How-To Guides": ["doc4"],
+    "Getting Started": ["doc3", "doc3_1", "doc3_2", "doc3_3",
+      {
+        "type": "subcategory",
+        "label": "Add and assign apps",
+        "ids": ["Google/Android_MAM_Overview", "Google/MAM_Internal_Apps"]
+      },
+      "doc3_5",
+      {
+        "type": "subcategory",
+        "label": "Register for Android Management",
+        "ids": ["Google/Register_Managed_Google_Accounts", "Google/Register_Domain_Based_Accounts"]
+      },
+      {
+        "type": "subcategory",
+        "label": "Enrollment",
+        "ids": ["Google/Enroll_Manage_BYOD_Devices"]
+      }
+    ],
+    "How-To Guides": ["Google/Deploying_Single_App_Kiosks"],
+    "Device Platforms" : ["Google/Android_UEM_Overview"],
     "Productivity Apps": ["doc6", "doc6_1", "doc6_2", "doc6_3", "doc6_4", "doc6_5", "doc6_6"]
   },
   "Google": {
     "Google Platform" : ["Google/doc5_1"],
     "Android Enterprise":[
-      "Google/Android_UEM_Overview",
-      {
-        "type": "subcategory",
-        "label": "Register Workspace ONE for Android Management",
-        "ids": ["Google/Register_Managed_Google_Accounts", "Google/Register_Domain_Based_Accounts"]
-      },
-      {
-        "type": "subcategory",
-        "label": "Android App Management",
-        "ids": ["Google/Android_MAM_Overview", "Google/MAM_Internal_Apps"]
-      },
-      "Google/Deploying_Single_App_Kiosks",
-      "Google/Enroll_Manage_BYOD_Devices"
     ],
     "Chrome OS" : ["Google/doc5_3"]
   },

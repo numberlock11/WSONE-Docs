@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Workspace ONE UEM Docs', // Title for your website.
-  tagline: 'Docusaurus proof of concept for Workspace ONE UEM docs',
+  title: 'Workspace ONE Docs', // Title for your website.
+  tagline: 'Docusaurus proof of concept for Workspace ONE docs',
   url: 'https://numberlock11.github.io', // Your website URL
   baseUrl: '/WSONE-Docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -50,7 +50,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'doc1', label: 'Home'},
     {doc: 'Google/doc5_1', label: 'Google'},
-    {doc: 'Apple/doc5dot1', label: 'Apple'},
+    {doc: 'Apple/doc5dot1', label: 'Internal'},
     { search: true },
   ],
 

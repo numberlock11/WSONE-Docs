@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://numberlock11.github.io/WSONE-Docs/blog</id>
-    <title>Workspace ONE UEM Docs Blog</title>
+    <title>Workspace ONE Docs Blog</title>
     <updated>2017-10-24T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://numberlock11.github.io/WSONE-Docs/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest Workspace ONE UEM Docs news and events.</subtitle>
+    <subtitle>The best place to stay up-to-date with the latest Workspace ONE Docs news and events.</subtitle>
     <logo>https://numberlock11.github.io/WSONE-Docs/img/favicon.ico</logo>
     <rights>Copyright © 2019 numberlock</rights>
     <entry>

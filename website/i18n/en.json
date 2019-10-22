@@ -5,11 +5,14 @@
     "previous": "Previous",
     "tagline": "Docusaurus proof of concept for Workspace ONE docs",
     "docs": {
+      "Apple/customenrollment": {
+        "title": "Custom Enrollment"
+      },
       "Apple/doc5dot1": {
-        "title": "iOS"
+        "title": "Device Enrollment Program"
       },
       "Apple/doc5dot2": {
-        "title": "macOS"
+        "title": "User Enrollment"
       },
       "doc1": {
         "title": "What is Workspace ONE UEM"
@@ -110,7 +113,6 @@
     },
     "links": {
       "Home": "Home",
-      "Google": "Google",
       "Internal": "Internal"
     },
     "categories": {
@@ -123,7 +125,7 @@
       "Google Platform": "Google Platform",
       "Android Enterprise": "Android Enterprise",
       "Chrome OS": "Chrome OS",
-      "Apple Platform": "Apple Platform"
+      "Apple Platform Playbooks": "Apple Platform Playbooks"
     }
   },
   "pages-strings": {

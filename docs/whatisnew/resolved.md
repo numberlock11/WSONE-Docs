@@ -341,6 +341,8 @@ title: Resolved Issues
 
 *   ARES-9912: api/mam/apps/internal/xxx/devices API returns 204 when MamCountsImprovementFeatureFlag is On.
 
+---
+
 ## Resolved Issues in 1905
 
 *   AAPP-2103: Array value type unavailable for the VPP application configuration.

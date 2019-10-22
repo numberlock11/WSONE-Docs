@@ -37,10 +37,21 @@ const siteConfig = {
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
+  themeConfig: {
+      // Adding Search
+      algolia: {
+        apiKey: '47ecd3b21be71c5822571b9f59e52544',
+        indexName: 'docusaurus-2',
+        algoliaOptions: {},
+        placeholder: 'Ask me something'
+      },
+    },
+
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
+    {doc: 'doc1', label: 'Home'},
     {doc: 'Google/doc5_1', label: 'Google'},
     {doc: 'Apple/doc5dot1', label: 'Apple'},
+    { search: true },
   ],
 
   // If you have users set above, you add it here:
@@ -97,10 +108,10 @@ const siteConfig = {
   // docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+   enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+   enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

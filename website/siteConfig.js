@@ -49,7 +49,7 @@ const siteConfig = {
 
   headerLinks: [
     {doc: 'doc1', label: 'Home'},
-    {doc: 'Google/doc5_1', label: 'Google'},
+    //{doc: 'Google/doc5_1', label: 'Google'},
     {doc: 'Apple/doc5dot1', label: 'Internal'},
     { search: true },
   ],

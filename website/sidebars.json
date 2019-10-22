@@ -1,7 +1,7 @@
 {
   "docs": {
     "Overview": ["doc1"],
-    "What's New": ["whatisnew/doc2", "whatisnew/doc2_1","whatisnew/resolved","whatisnew/known"],
+    "What's New": ["whatisnew/doc2","whatisnew/resolved","whatisnew/known"],
     "Getting Started": ["doc3", "doc3_1", "doc3_2", "doc3_3",
       {
         "type": "subcategory",
@@ -31,6 +31,6 @@
     "Chrome OS" : ["Google/doc5_3"]
   },
   "Apple": {
-    "Apple Platform" : ["Apple/doc5dot1"]
+    "Apple Platform Playbooks" : ["Apple/doc5dot1","Apple/doc5dot2","Apple/customenrollment"]
   }
 }

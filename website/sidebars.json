@@ -20,7 +20,8 @@
         "label": "Android App Management",
         "ids": ["Google/Android_MAM_Overview", "Google/MAM_Internal_Apps"]
       },
-      "Google/Deploying_Single_App_Kiosks"
+      "Google/Deploying_Single_App_Kiosks",
+      "Google/Enroll_Manage_BYOD_Devices"
     ],
     "Chrome OS" : ["Google/doc5_3"]
   },

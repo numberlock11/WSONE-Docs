@@ -40,8 +40,8 @@ const siteConfig = {
   themeConfig: {
       // Adding Search
       algolia: {
-        apiKey: '47ecd3b21be71c5822571b9f59e52544',
-        indexName: 'docusaurus-2',
+        apiKey: '5329322e74a0a13e1fc7ec3fc9b80d4b',
+        indexName: 'numberlock11_wsone',
         algoliaOptions: {},
         placeholder: 'Ask me something'
       },
@@ -51,7 +51,7 @@ const siteConfig = {
     {doc: 'doc1', label: 'Home'},
     //{doc: 'Google/doc5_1', label: 'Google'},
     {doc: 'Apple/doc5dot1', label: 'Internal'},
-    { search: true },
+    {search: true}
   ],
 
   // If you have users set above, you add it here:

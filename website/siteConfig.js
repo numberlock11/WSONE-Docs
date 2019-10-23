@@ -35,17 +35,16 @@ const siteConfig = {
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
-
+  algolia: {
+    apiKey: '5329322e74a0a13e1fc7ec3fc9b80d4b',
+    indexName: 'numberlock11_wsone',
+    algoliaOptions: {},
+    placeholder: 'Ask me something'
+  },
   // For no header links in the top nav bar -> headerLinks: [],
-  themeConfig: {
+  //themeConfig: {
       // Adding Search
-      algolia: {
-        apiKey: '5329322e74a0a13e1fc7ec3fc9b80d4b',
-        indexName: 'numberlock11_wsone',
-        algoliaOptions: {},
-        placeholder: 'Ask me something'
-      },
-    },
+  //  },
 
   headerLinks: [
     {doc: 'doc1', label: 'Home'},

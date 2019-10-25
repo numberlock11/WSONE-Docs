@@ -1,10 +1,8 @@
 ---
-id: doc2
+id: version-1907-doc2
 title: Latest Releases
+original_id: doc2
 ---
-## What's new in 1910
-
-
 ## What's new in 1907
 
 **1907 for On-Premises Customers**: Workspace ONE UEM 1907 for on-premises customers contains all the features and resolved issues from the previous SaaS-only releases.

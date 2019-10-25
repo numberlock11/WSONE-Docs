@@ -1,6 +1,7 @@
 ---
-id: doc2
+id: version-1910-doc2
 title: Latest Releases
+original_id: doc2
 ---
 ## What's new in 1910
 

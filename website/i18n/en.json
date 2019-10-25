@@ -109,6 +109,120 @@
       },
       "whatisnew/resolved": {
         "title": "Resolved Issues"
+      },
+      "version-1907/Apple/version-1907-customenrollment": {
+        "title": "Custom Enrollment"
+      },
+      "version-1907/Apple/version-1907-doc5dot1": {
+        "title": "Device Enrollment Program"
+      },
+      "version-1907/Apple/version-1907-doc5dot2": {
+        "title": "User Enrollment"
+      },
+      "version-1907/version-1907-doc1": {
+        "title": "What is Workspace ONE UEM"
+      },
+      "version-1907/version-1907-doc3_1": {
+        "title": "Add users for access"
+      },
+      "version-1907/version-1907-doc3_2": {
+        "title": "Register email domain"
+      },
+      "version-1907/version-1907-doc3_3": {
+        "title": "Enable device management services"
+      },
+      "version-1907/version-1907-doc3_4": {
+        "title": "Add and assign app"
+      },
+      "version-1907/version-1907-doc3_5": {
+        "title": "Setup email for device"
+      },
+      "version-1907/version-1907-doc3": {
+        "title": "Create Organization Groups"
+      },
+      "version-1907/version-1907-doc4": {
+        "title": "Other Document"
+      },
+      "version-1907/version-1907-doc5_4": {
+        "title": "Datamax"
+      },
+      "version-1907/version-1907-doc5_5": {
+        "title": "Epson"
+      },
+      "version-1907/version-1907-doc5_6": {
+        "title": "Zebra"
+      },
+      "version-1907/version-1907-doc5": {
+        "title": "Fifth Document"
+      },
+      "version-1907/version-1907-doc6_1": {
+        "title": "Web"
+      },
+      "version-1907/version-1907-doc6_2": {
+        "title": "Content"
+      },
+      "version-1907/version-1907-doc6_3": {
+        "title": "Send"
+      },
+      "version-1907/version-1907-doc6_4": {
+        "title": "Notebook"
+      },
+      "version-1907/version-1907-doc6_5": {
+        "title": "PIV-D"
+      },
+      "version-1907/version-1907-doc6_6": {
+        "title": "Self-service portal"
+      },
+      "version-1907/version-1907-doc6": {
+        "title": "Boxer"
+      },
+      "version-1907/Google/version-1907-Android_MAM_Overview": {
+        "title": "Android App Management"
+      },
+      "version-1907/Google/version-1907-Android_UEM_Overview": {
+        "title": "Android UEM Overview"
+      },
+      "version-1907/Google/version-1907-Deploying_Single_App_Kiosks": {
+        "title": "Deploying Single App Kiosks and Digital Signs"
+      },
+      "version-1907/Google/version-1907-doc5_1": {
+        "title": "Overview"
+      },
+      "version-1907/Google/version-1907-doc5_3": {
+        "title": "Chrome OS"
+      },
+      "version-1907/Google/version-1907-Enroll_Manage_BYOD_Devices": {
+        "title": "Enroll and Manage a BYOD Device"
+      },
+      "version-1907/Google/version-1907-MAM_Internal_Apps": {
+        "title": "Deploying Internal Apps"
+      },
+      "version-1907/Google/version-1907-Register_Domain_Based_Accounts": {
+        "title": "Google Domain-Based Registration"
+      },
+      "version-1907/Google/version-1907-Register_Managed_Google_Accounts": {
+        "title": "Managed Google Accounts"
+      },
+      "version-1907/whatisnew/version-1907-doc2_1": {
+        "title": "Features in development"
+      },
+      "version-1907/whatisnew/version-1907-doc2": {
+        "title": "Latest Releases"
+      },
+      "version-1907/whatisnew/version-1907-known": {
+        "title": "Known Issues"
+      },
+      "version-1907/whatisnew/version-1907-resolved": {
+        "title": "Resolved Issues"
+      },
+      "version-1910/version-1910-doc4": {
+        "title": "Create Organization Groups"
+      },
+      "version-1910/version-1910-doc5": {
+        "title": "macOS"
+      },
+      "version-1910/whatisnew/version-1910-doc2": {
+        "title": "Latest Releases"
       }
     },
     "links": {

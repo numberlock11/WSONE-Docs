@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>User Enrollment · Workspace ONE Docs</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Technical Flow Diagram"/><meta name="docsearch:version" content="next"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="User Enrollment · Workspace ONE Docs"/><meta property="og:type" content="website"/><meta property="og:url" content="https://numberlock11.github.io/WSONE-Docs/"/><meta property="og:description" content="## Technical Flow Diagram"/><meta property="og:image" content="https://numberlock11.github.io/WSONE-Docs/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://numberlock11.github.io/WSONE-Docs/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/WSONE-Docs/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/WSONE-Docs/js/scrollSpy.js"></script><link rel="stylesheet" href="/WSONE-Docs/css/main.css"/><script src="/WSONE-Docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/WSONE-Docs/"><img class="logo" src="/WSONE-Docs/img/favicon.ico" alt="Workspace ONE Docs"/><h2 class="headerTitleWithLogo">Workspace ONE Docs</h2></a><a href="/WSONE-Docs/versions"><h3>next</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/WSONE-Docs/docs/next/doc1" target="_self">Home</a></li><li class="siteNavGroupActive"><a href="/WSONE-Docs/docs/next/Apple/doc5dot1" target="_self">Internal</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Ask me something" title="Ask me something"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Apple Platform Playbooks</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Apple Platform Playbooks<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/WSONE-Docs/docs/next/Apple/doc5dot1">Device Enrollment Program</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/WSONE-Docs/docs/next/Apple/doc5dot2">User Enrollment</a></li><li class="navListItem"><a class="navItem" href="/WSONE-Docs/docs/next/Apple/customenrollment">Custom Enrollment</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">User Enrollment</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="technical-flow-diagram"></a><a href="#technical-flow-diagram" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Technical Flow Diagram</h2>
+<h3><a class="anchor" aria-hidden="true" id="user-enrollment-without-entering-groupid"></a><a href="#user-enrollment-without-entering-groupid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>User Enrollment without entering GroupID</h3>
+<p><img src="/WSONE-Docs/docs/assets/UEflow.png" alt="DEP1.png"></p>
+<h3><a class="anchor" aria-hidden="true" id="user-enrollment-with-entering-groupid"></a><a href="#user-enrollment-with-entering-groupid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>User Enrollment with entering GroupID</h3>
+<p><img src="/WSONE-Docs/docs/assets/UEflow2.png" alt="DEP1.png"></p>
+<h3><a class="anchor" aria-hidden="true" id="things-to-remember"></a><a href="#things-to-remember" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Things to remember:</h3>
+<ul>
+<li><p>If user group mapping exists for the enrollment user, that takes highest priority and the device will enroll to the OG specified in the user group mapping. User enrollment needs to be enabled in the UG mapping OG (either inherited or overridden).</p></li>
+<li><p>If no user group mapping exists, the device will enroll to the default enrollment organization group of the enrollment user if no Group ID is provided during enrollment. User enrollment needs to be enabled in the OG (either inherited or overridden).</p></li>
+<li><p>If Group ID is entered during enrollment and no UG mapping exists for the enrollment user, the device will enroll to the entered OG as long as user enrollment is enabled at that OG (either inherited or overridden).</p></li>
+<li><p>There will be a dummy device record created during enrollment that will be updated to the correct device info once user enrollment completes. If enrollment is aborted in the middle and restarted, a new device record will be created and the old one will continue to show in the device list view page. This is because there is no persistent device identifier that can be used to merge these two records.</p></li>
+<li><p>User enrollment is not supported through the Hub app so we need to perform web based enrollment and push down Hub as a managed app.</p></li>
+<li><p>The default ownership type for user enrolled devices will always be Employee Owned.</p></li>
+<li><p>No persistent identifier for UE devices. This means no serial number, IMEI, UDID etc.</p></li>
+<li><p>The UDID for the device is replaced with an Enrollment ID. In the dbo.Device table for a user enrolled device, the UDID column will be populated with the Enrollment ID of the device. DO NOT CONFUSE THIS WITH THE ACTUAL DEVICE UDID. However, any APIs that identify the device with its UDID will continue to work if we use the Enrollment ID as UDID.</p></li>
+<li><p>Public apps are not supported on user enrolled devices. Only VPP apps with user based licensing can install on UE devices.</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="vpp-things-to-remember-for-user-enrollment"></a><a href="#vpp-things-to-remember-for-user-enrollment" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>VPP things to remember for user enrollment:</h3>
+<ul>
+<li>No invite will be sent to a user enrolled device. When a UE device enrolls or when an app is pushed, the VPP user for the enrollment user for the UE device will be associated with the managed Apple ID. Once this association is done, we are no longer required to send an invite to the device. This is called the silent invite accept process and will be done completely silently from the backend by calling the Register VPP user API.</li>
+<li>The LicenseTypeEligibility for a UE device will always be user based license. This means that even if the app has DBL enabled, we will issue UBL for a UE device for that app. This field can be found in the dbo.DeviceExtendedProperties table. Column name is LicenseTypeEligibility and the value should be 2 for UE devices.</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="logs-to-collect"></a><a href="#logs-to-collect" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Logs to collect:</h3>
+<ul>
+<li>For issues relating to the user enrollment UI before getting the prompt to download and install the MDM profile please collect DeviceManagement logs.</li>
+<li>For issues during or after redirection to the DS endpoint to download the MDM profile please collect DeviceServices logs.</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="database-changes-to-know"></a><a href="#database-changes-to-know" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Database changes to know:</h3>
+<ul>
+<li>Added a new column to dbo.DeviceExtendedProperties table to identify if the device is user enrolled. The column is called IsUserEnrolled</li>
+<li>LicenseTypeEligibility for a UE device will always be user based licensing. This can be found in the dbo.DeviceExtendedProperties table. Column name is LicenseTypeEligibility and value should be 2.</li>
+</ul>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 2019-10-22 by numberlock11</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/WSONE-Docs/docs/next/Apple/doc5dot1"><span class="arrow-prev">← </span><span>Device Enrollment Program</span></a><a class="docs-next button" href="/WSONE-Docs/docs/next/Apple/customenrollment"><span>Custom Enrollment</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#technical-flow-diagram">Technical Flow Diagram</a><ul class="toc-headings"><li><a href="#user-enrollment-without-entering-groupid">User Enrollment without entering GroupID</a></li><li><a href="#user-enrollment-with-entering-groupid">User Enrollment with entering GroupID</a></li><li><a href="#things-to-remember">Things to remember:</a></li><li><a href="#vpp-things-to-remember-for-user-enrollment">VPP things to remember for user enrollment:</a></li><li><a href="#logs-to-collect">Logs to collect:</a></li><li><a href="#database-changes-to-know">Database changes to know:</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/WSONE-Docs/" class="nav-home"><img src="/WSONE-Docs/img/favicon.ico" alt="Workspace ONE Docs" width="66" height="58"/></a><div><h5>Docs</h5><a href="/WSONE-Docs/docs/en/doc1.html">Getting Started (or other categories)</a></div><div><h5>More</h5><a href="/WSONE-Docs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 numberlock</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '5329322e74a0a13e1fc7ec3fc9b80d4b',
+                indexName: 'numberlock11_wsone',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>

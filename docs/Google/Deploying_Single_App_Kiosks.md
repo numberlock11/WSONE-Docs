@@ -7,7 +7,7 @@ custom_edit_url: https://github.com/numberlock11/WSONE-Docs/blob/master/docs/Goo
 Android devices can be locked down to present a single app for kiosk and digital signage use cases. Users can only have access to the app in the foreground, and cannot navigate back to the Android home screen or alter device settings. Single app kiosks and signs can be easily achieved by using VMware Launcher.
 
 ## How does VMware Launcher enable single app kiosks?
-VMware Intelligent Hub uses Android's lock task feature to lock Launcher in the foreground. The lock task features built into Android are also used to allow customization of which settings are available to the user during single app mode. For instance, access to settings such as Wi-FI can be prevented and notification bar access can be customized.
+VMware Intelligent Hub uses Android's lock task feature to lock Launcher in the foreground. The lock task features built into Android are also used to allow customization of which settings are available to the user during single app mode. For instance, access to settings such as Wi-FI can be prevented and notification bar access can be customized!
 
 ## Best practices for Enrollment
 The best option to meet the kiosk use case is to use Work Managed enrollment with device based accounts. The recommendation is based on two key assumptions:

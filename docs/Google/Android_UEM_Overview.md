@@ -4,7 +4,7 @@ title: Android UEM Overview
 custom_edit_url: https://github.com/numberlock11/WSONE-Docs/blob/master/docs/Google/Android_UEM_Overview.md
 ---
 
-VMware Workspace ONE UEM integrates with Google's Android Enterprise framework to provide a broad set of management features to meet your use cases. This section is meant to provide an overview of how Workspace ONE UEM interacts with Google APIs and frameworks to provide an understanding of how Android UEM management works. The section also includes considerations for choosing the right management model and network setup.
+VMware Workspace ONE UEM integrates with Google's Android Enterprise framework to provide a broad set of management features to meet your use cases. This section is meant to provide an overview of how Workspace ONE UEM interacts with Google APIs and frameworks to provide an understanding of how Android UEM management works. The section also includes considerations for choosing the right management model and network setup
 
 ## Introduction to Android Enterprise
 

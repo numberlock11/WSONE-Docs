@@ -256,13 +256,22 @@ Custom enrollment supports a subset of enrollment options compared to standard d
   3. Select **Add New Enrollment Terms of Use**
   4. Configure a **Name** and any other settings desired
   5. Add text to the message that will be presented to the user.
-  6. Click **Save**
+  6. Click **Save**.
 
 + Modern authentication
-  1. Navigate to **Groups & Settings > All Settings > General > Enrollment > Authentication**
-  2. 
+  1. Navigate to **Groups & Settings > All Settings > Device & Users > General > Enrollment > Authentication**
+  2. Check option for *Directory* in **Authentication Mode(s)**
+  3. Navigate to **Groups & Settings > All Settings > System > Enterprise Integration > Directory Services**
+  4. Ensure your preferred directory settings are configured. For more detail on how to do this, review our [Directory Services](#Directory-Services) documentation.
+
 + Multi-factor authentication
+  1. Navigate to **Groups & Settings > All Settings > Device & Users > General > Enrollment > Authentication**
+  2. Toggle **Devices Enrollment Mode** to *Registered Devices Only*
+  3. Toggle **Registration Token Type** to *Two-Factor*
+
 + Company branding
+  1. Navigate to **Groups & Settings > All Settings > System > Branding**
+  2. Configure preferred branding settings
 
 
 # Apps

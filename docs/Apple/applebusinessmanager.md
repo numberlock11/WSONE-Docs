@@ -1,5 +1,5 @@
 ---
-id: applebusinessmanager
+id: Apple_Business_Manager
 title: Apple Business Manager
 ---
 

@@ -5,6 +5,9 @@
     "previous": "Previous",
     "tagline": "Docusaurus proof of concept for Workspace ONE docs",
     "docs": {
+      "Apple/Apple_Business_Manager": {
+        "title": "Apple Business Manager"
+      },
       "Apple/customenrollment": {
         "title": "Custom Enrollment"
       },

@@ -22,7 +22,8 @@
     ],
     "How-To Guides": ["Google/Deploying_Single_App_Kiosks"],
     "Device Platforms" : ["Google/Android_UEM_Overview"],
-    "Productivity Apps": ["doc6", "doc6_1", "doc6_2", "doc6_3", "doc6_4", "doc6_5", "doc6_6"]
+    "Productivity Apps": ["doc6", "doc6_1", "doc6_2", "doc6_3", "doc6_4", "doc6_5", "doc6_6"],
+    "Apple": ["Apple/applebusinessmanager"]
   },
   "Google": {
     "Google Platform" : ["Google/doc5_1"],

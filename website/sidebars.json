@@ -31,6 +31,7 @@
     "Chrome OS" : ["Google/doc5_3"]
   },
   "Apple": {
-    "Apple Platform Playbooks" : ["Apple/doc5dot1","Apple/doc5dot2","Apple/customenrollment"]
+    "Apple Platform Playbooks" : ["Apple/doc5dot1","Apple/doc5dot2","Apple/customenrollment"],
+    "Apple Business Manager" : ["Apple/applebusinessmanager"]
   }
 }
